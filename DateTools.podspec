@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
 
   s.ios.platform = :ios, '7.0'
   s.osx.platform = :iox, '10.7'
+  s.watchos.platform = :watchos, '2.0'
   s.requires_arc = true
 
   s.source_files = 'DateTools'
